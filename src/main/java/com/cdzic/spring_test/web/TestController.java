@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class TestController {
+
     @GetMapping("/")
     public String test1(){
         return "帅哥你好safsdjdsojfalsdjalfj！";
@@ -18,4 +19,5 @@ public class TestController {
     public void test(){
         System.out.println("test");
     }
+
 }
