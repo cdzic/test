@@ -4,5 +4,6 @@ public class ApplocationTest {
 
     public void test(){
         System.out.println("Hello word");
+        System.out.println("spring Boot");
     }
 }
