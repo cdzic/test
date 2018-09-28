@@ -14,4 +14,8 @@ public class TestController {
     public String test1(){
         return "帅哥你好！";
     }
+
+    public void test(){
+        System.out.println("test");
+    }
 }
